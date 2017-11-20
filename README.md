@@ -3,7 +3,8 @@
 ## How to build:
 
 ```
-cd <zabbix-src>/src/modules
+cd <zabbix-src> && ./configure
+cd ./src/modules
 git pull https://github.com/am813nt/zabbix-fs-ro
 cd zabbix-fs-ro && make
 ```
