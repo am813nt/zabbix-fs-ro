@@ -23,7 +23,7 @@ zabbix_agentd -t fs_ro.status
 
 ## Description
 Key is `fs_ro.status`.
-It returns 1 if there is ext4 read-only filesystem and 0 otherwise.
+It returns 1 if there is ext4 read-only filesystem and 0 otherwise. Based on that values trigger can be easily added.
 
 
 
