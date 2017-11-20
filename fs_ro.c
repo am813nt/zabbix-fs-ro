@@ -91,6 +91,7 @@ int     zbx_module_fs_ro_status(AGENT_REQUEST *request, AGENT_RESULT *result)
                         break;
                 }
         }
+        endmntent(f);
 
         return SYSINFO_RET_OK;
 }
